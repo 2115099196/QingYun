@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="icon" href="image/Google__G__Logo.svg.png" type="image/x-icon" />
+    <title>方案1</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            outline: none;
+            list-style: none;
+            text-decoration: none;
+            width: auto;
+            height: auto;
+        }
+
+        .beijing{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            /* background-image: url(/image/beijing.jpg);
+            background-position: center;
+            background-size: cover; */
+            background-color: #d4d4d4;
+            z-index: -10;
+        }
+
+        @keyframes a1{
+            0%{
+                color: #f52443;
+            }
+            50%{
+                color: #02b340;
+            }
+            100%{
+                color: #777bce;
+            }
+        }
+
+        @keyframes a2{
+            0%{
+                box-shadow: 0 0 10px rgba(245,36,67,0) inset;
+            }
+            10%{
+                box-shadow: 0 0 10px rgba(245,36,67,0.1) inset;
+            }
+            20%{
+                box-shadow: 0 0 10px rgba(245,36,67,0.2) inset;
+            }
+            30%{
+                box-shadow: 0 0 10px rgba(245,36,67,0.3) inset;
+            }
+            40%{
+                box-shadow: 0 0 10px rgba(245,36,67,0.4) inset;
+            }
+            50%{
+                box-shadow: 0 0 10px rgba(245,36,67,0.5) inset;
+            }
+            60%{
+                box-shadow: 0 0 10px rgba(245,36,67,0.6) inset;
+            }
+            70%{
+                box-shadow: 0 0 10px rgba(245,36,67,0.7) inset;
+            }
+            80%{
+                box-shadow: 0 0 10px rgba(245,36,67,0.8) inset;
+            }
+            90%{
+                box-shadow: 0 0 10px rgba(245,36,67,0.9) inset;
+            }
+            100%{
+                box-shadow: 0 0 10px rgba(245,36,67,1) inset;
+            }
+        }
+
+        #sense{
+            color: red;
+            padding-left: 0;
+            animation: a1 5s linear alternate infinite;
+        }
+
+        .header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            height: auto;
+            /* padding: 25px 25px; */
+            background-color: #251c12;
+            animation: a2 2s linear alternate infinite;
+        }
+
+        .header span{
+            font-family: sans-serif;
+            font-size: 25px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-left: 25px;
+            color: #ededef;
+        }
+
+        .header .header-r a{
+            color: #ededef;
+            margin-right: 40px;
+            padding: 5px 10px;
+            border-left: 1px solid gray;
+            border-right: 1px solid gray;
+            transition: all 1s;
+        }
+
+        .header .header-r a:hover{
+            background-color: #e6005c;
+        }
+
+        .i-video video{
+            display: flex;
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="beijing"></div>
+
+    <div class="header">
+        <span>Game<span id="sense">sense</span></span>
+        <div class="header-r">
+            <a href="index2.html">首 页</a>
+            <a href="" onclick="a()">论 坛</a>
+            <a href="" onclick="b()">产 品</a>
+            <a href="" onclick="c()">联 系</a>
+        </div>
+    </div>
+
+    <div class="i-video">
+        <video src="/video/oni-mask-samurai-girl-live-wallpaper.mp4"></video>
+    </div>
+
+    <script>
+        function a(){
+            alert("开发中，敬请期待");
+        }
+
+        function b(){
+            alert("开发中，敬请期待");
+        }
+
+        function c(){
+            alert("开发中，敬请期待");
+        }
+    </script>
+</body>
+</html>
